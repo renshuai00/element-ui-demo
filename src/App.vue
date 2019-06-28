@@ -68,7 +68,7 @@ export default {
           message : '正在跳转...',
           type : 'success'
         });
-        this.$router.app({path:this.routeValue});
+        this.$router.push({path:this.routeValue});
       };
       this.routeValue = '';
     }
